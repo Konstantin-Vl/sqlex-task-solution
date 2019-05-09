@@ -1,9 +1,11 @@
+/schema/postgres/*.sql linguist-language=PLpgSQL
+/training/postgres/*.sql linguist-language=PLpgSQL
+
 # Autodetect text files
 * text=auto
 
 # Definitively text files
 *.md   text
-*.sql  text
 
 # Definitively binary files
 *.png  binary
