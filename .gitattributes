@@ -1,0 +1,12 @@
+# Autodetect text files
+* text=auto
+
+# Definitively text files
+*.md   text
+*.sql  text
+
+# Definitively binary files
+*.png  binary
+
+/.gitattributes     export-ignore
+/.gitignore         export-ignore
